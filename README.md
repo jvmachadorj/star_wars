@@ -14,3 +14,6 @@
   5. Open a browser and type http://localhost:8000
   
   6. Access to docs to see what endpoint is available in the project http://localhost:8000/docs
+  
+## How to test
+  1. Run the code `python manage.py test`
