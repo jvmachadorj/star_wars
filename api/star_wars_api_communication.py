@@ -4,7 +4,7 @@ from rest_framework import status
 from start_wars.settings import STAR_WARS_BASE_PLANET_URL
 
 
-def get_movie_appearance_by_name(name):
+def get_movie_appearance_by_name(name: str) -> int:
     url = '{}?search={}'.format(STAR_WARS_BASE_PLANET_URL, name)
     method = 'GET'
     response = request(method, url)
