@@ -8,5 +8,5 @@ urlpatterns = [
     path('planet/create', PlanetCreateView.as_view(),
          name='planet_create'),
     path('planet/<pk>/', PlanetRetriveDelete.as_view(),
-         name='planet_list'),
+         name='planet_retrieve_delete'),
 ]
